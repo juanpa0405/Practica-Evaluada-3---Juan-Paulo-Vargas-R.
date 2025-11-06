@@ -9,10 +9,7 @@ package practicaevaluada3.juanpaulovargasr;
  * @author juamp
  */
 public class PracticaEvaluada3JuanPauloVargasR {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         int cantidad = Integer.parseInt(javax.swing.JOptionPane.showInputDialog("Digite la cantidad de productos:"));
         Tienda tienda = new Tienda(cantidad);
@@ -26,3 +23,4 @@ public class PracticaEvaluada3JuanPauloVargasR {
     }
 }
     
+
