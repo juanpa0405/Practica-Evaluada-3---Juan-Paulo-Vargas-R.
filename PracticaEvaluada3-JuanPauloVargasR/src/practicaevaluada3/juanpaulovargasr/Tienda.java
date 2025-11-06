@@ -30,7 +30,7 @@ public class Tienda {
     public void generarVentas() {
         for (int i = 0; i < 7; i++) {
             for (int j = 0; j < productos.length; j++) {
-                ventas[i][j] = (int) (Math.random() * 10); 
+                ventas[i][j] = (int)Math.random() * 10; 
             }
         }
     }
@@ -85,7 +85,7 @@ public class Tienda {
 
     public void mostrarMatriz() {
         String salida = "Ventas semanales:\n";
-        for (int i = 0; i < 7; i++) {
+        for (int i = 1; i < 7; i++) {
             salida += dias[i] + ": ";
             for (int j = 0; j < productos.length; j++) {
                 salida += ventas[i][j] + " ";
@@ -96,3 +96,4 @@ public class Tienda {
     }
          
 }
+
